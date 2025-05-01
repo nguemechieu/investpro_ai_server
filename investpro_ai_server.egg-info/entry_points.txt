@@ -1,0 +1,2 @@
+[console_scripts]
+investpro-ai-server = investpro_ai_server:run

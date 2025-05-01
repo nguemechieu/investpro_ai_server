@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: investpro-ai-server
+Version: 1.0.0
+Summary: FastAPI + TensorFlow server for InvestPro AI predictions
+Home-page: https://www.github.com/nguemechieu/investpro/ai_server/investpro-ai-server
+Author: NOEL NGUEMECHIEU
+Author-email: nguemechieu@live.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+License-File: License.md
+Requires-Dist: requirements.txt
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

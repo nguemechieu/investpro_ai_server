@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="investpro-ai-server:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/investpro_ai_server_jar</output-path>
+    <root id="archive" name="investpro-ai-server.jar" />
+  </artifact>
+</component>

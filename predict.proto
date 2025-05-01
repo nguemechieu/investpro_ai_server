@@ -1,0 +1,32 @@
+syntax = "proto3";
+package org.investpro.grpc;
+
+import "google/protobuf/empty.proto";
+
+message MarketDataRequest {
+  double open = 1;
+  double close = 2;
+  double high = 3;
+  double low = 4;
+  double volume = 5;
+  double rsi = 6;
+  double atr = 7;
+  double macd = 8;
+  double stoch = 9;
+  double bb_upper = 10;
+  double bb_lower = 11;
+}
+
+message PredictionResponse {
+  string prediction = 1;
+  double confidence = 2;
+}
+
+message HealthStatus {
+  string status = 1;
+}
+
+service Predictor {
+  rpc Predict (MarketDataRequest) returns (PredictionResponse);
+  rpc HealthCheck (google.protobuf.Empty) returns (HealthStatus);
+}

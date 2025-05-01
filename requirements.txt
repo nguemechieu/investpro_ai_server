@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+pydantic
+scikit-learn
+numpy
+joblib
+tensorflow
+twine
+setuptools
+keras
+grpcio
+grpcio-tools
+protobuf
+pandas
+python-dotenv

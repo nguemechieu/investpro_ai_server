@@ -1,0 +1,9 @@
+License.md
+README.md
+setup.py
+investpro_ai_server.egg-info/PKG-INFO
+investpro_ai_server.egg-info/SOURCES.txt
+investpro_ai_server.egg-info/dependency_links.txt
+investpro_ai_server.egg-info/entry_points.txt
+investpro_ai_server.egg-info/requires.txt
+investpro_ai_server.egg-info/top_level.txt
